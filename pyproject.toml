@@ -1,0 +1,30 @@
+[project]
+name = "simple-notes-service"
+version = "0.1.0"
+description = "A simple notes service built with FastAPI."
+authors = [{ name = "DrFako", email = "email@example.com" }]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
+src = ["app"]
+select = ["E", "F", "B", "I", "UP", "SIM", "C901"]
+ignore = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.2",
+    "pytest>=7.0",
+    "httpx>=0.26"
+]
+
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+    "pydantic>=2.0"
+]
