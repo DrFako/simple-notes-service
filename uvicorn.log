@@ -1,0 +1,15 @@
+INFO:     Started server process [1904918]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60048 - "GET /api/notes HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:40828 - "GET /api/notes/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40840 - "POST /api/notes HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:40856 - "POST /api/notes/ HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:35018 - "GET /nonexistent HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35022 - "POST /api/notes/ HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:35032 - "POST /api/notes/ HTTP/1.1" 400 Bad Request
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [1904918]

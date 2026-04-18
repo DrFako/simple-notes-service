@@ -5,6 +5,7 @@ app/config.py
 app/main.py
 app/models.py
 app/routers/__init__.py
+app/routers/notes.py
 app/services/__init__.py
 simple_notes_service.egg-info/PKG-INFO
 simple_notes_service.egg-info/SOURCES.txt
@@ -12,3 +13,4 @@ simple_notes_service.egg-info/dependency_links.txt
 simple_notes_service.egg-info/requires.txt
 simple_notes_service.egg-info/top_level.txt
 tests/test_basic.py
+tests/test_notes.py
